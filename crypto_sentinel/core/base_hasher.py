@@ -4,7 +4,7 @@ Abstract base class for hashing implementations.
 This module defines the HasherInterface ABC that all hashing algorithm
 implementations must inherit from, ensuring consistent API for all hash functions.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from abc import ABC, abstractmethod

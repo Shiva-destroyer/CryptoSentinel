@@ -4,7 +4,7 @@ Substitution Cipher implementation with hill climbing cryptanalysis.
 A monoalphabetic substitution cipher that replaces each letter with
 another letter based on a permutation key.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import random

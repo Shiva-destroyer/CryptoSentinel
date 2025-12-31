@@ -1,7 +1,7 @@
 """
 Unit tests for core exception classes.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import pytest

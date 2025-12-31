@@ -4,7 +4,7 @@ Demo script to showcase CryptoSentinel CLI features.
 
 This script demonstrates the UI capabilities without requiring user interaction.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import time

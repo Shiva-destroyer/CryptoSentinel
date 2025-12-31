@@ -5,7 +5,7 @@ This module provides essential mathematical functions used in various
 cryptographic algorithms, including GCD, modular arithmetic, and
 cryptanalysis tools.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from collections import Counter

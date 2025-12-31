@@ -4,7 +4,7 @@ Comprehensive tests for hashing implementations.
 Tests MD5, SHA256 hashers and checksum validator with various scenarios
 including temporary file operations.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import tempfile

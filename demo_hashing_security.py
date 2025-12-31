@@ -5,7 +5,7 @@ Demonstration script for CryptoSentinel hashing and security modules.
 Shows all implemented features including MD5/SHA256 hashing, file checksums,
 password analysis with entropy calculation, and Base64 encoding.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from crypto_sentinel.hashing import MD5Hasher, SHA256Hasher, ChecksumValidator

@@ -4,7 +4,7 @@ Comprehensive tests for security tools.
 Tests password analyzer with entropy calculations and Base64 encoder
 with various edge cases.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import pytest

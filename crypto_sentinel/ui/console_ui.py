@@ -4,7 +4,7 @@ Interactive Console UI for CryptoSentinel using Rich library.
 Provides a stunning terminal interface with colors, tables, panels,
 and progress bars for all cryptographic operations.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import time
@@ -108,7 +108,7 @@ class CryptoConsole:
         
         self.console.print(banner_panel)
         self.console.print(
-            "[dim]Version 1.0.0 | Author: saisrujanmurthy@gmail.com[/dim]\n",
+            "[dim]Version 1.0.0 | Developer: saisrujanmurthy@gmail.com[/dim]\n",
             justify="center"
         )
     

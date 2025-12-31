@@ -4,7 +4,7 @@ Custom exceptions for CryptoSentinel framework.
 This module defines all custom exceptions used throughout the CryptoSentinel
 framework for graceful error handling and meaningful error messages.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from typing import Any, Optional

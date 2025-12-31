@@ -4,7 +4,7 @@ Advanced password strength analyzer with entropy calculation.
 This module analyzes password strength using mathematical entropy
 calculation and provides detailed security recommendations.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import math

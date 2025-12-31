@@ -4,7 +4,7 @@ Comprehensive unit tests for classical cipher implementations.
 Tests encryption, decryption, and cracking for Caesar, Vigenère, XOR,
 Substitution, and Morse code implementations.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import pytest

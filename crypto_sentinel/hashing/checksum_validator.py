@@ -4,7 +4,7 @@ Checksum validation utility for file integrity verification.
 This module provides tools to compare file hashes for integrity checking,
 supporting both file-to-file and file-to-hash-string comparisons.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from pathlib import Path

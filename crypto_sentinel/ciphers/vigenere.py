@@ -4,7 +4,7 @@ Vigenère Cipher implementation with IoC-based key detection.
 The Vigenère cipher is a polyalphabetic substitution cipher that uses
 a keyword to shift letters by different amounts.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from typing import Any, Union

@@ -4,7 +4,7 @@ Advanced hashing implementations using hashlib with streaming file support.
 This module provides MD5 and SHA256 hashers that can efficiently handle
 files of any size (including 10GB+) by reading them in chunks.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import hashlib

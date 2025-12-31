@@ -1,7 +1,7 @@
 """
 Core module containing abstract base classes and interfaces.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from .exceptions import CryptoSentinelError

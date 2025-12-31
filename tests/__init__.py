@@ -1,5 +1,5 @@
 """
 Test suite for CryptoSentinel.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """

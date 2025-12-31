@@ -8,7 +8,7 @@ terminal interface for all cryptographic operations.
 Usage:
     python cli.py
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import sys

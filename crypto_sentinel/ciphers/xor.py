@@ -4,7 +4,7 @@ XOR Cipher implementation with single-byte key brute force.
 XOR cipher uses the bitwise XOR operation for encryption. It's symmetric,
 meaning the same operation is used for both encryption and decryption.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from typing import Any, Union

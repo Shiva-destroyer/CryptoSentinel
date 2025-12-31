@@ -4,7 +4,7 @@ Base64 encoding and decoding utility with robust error handling.
 This module provides Base64 encoding/decoding with automatic padding
 correction for malformed input.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import base64

@@ -1,7 +1,7 @@
 """
 CryptoSentinel Setup Configuration
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from setuptools import setup, find_packages

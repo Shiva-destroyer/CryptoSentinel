@@ -1,7 +1,7 @@
 """
 Unit tests for mathematical utility functions.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 import pytest

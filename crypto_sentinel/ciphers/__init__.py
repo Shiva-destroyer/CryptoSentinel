@@ -3,7 +3,7 @@ Classical encryption ciphers module.
 
 Includes implementations for Caesar, Vigenère, XOR, Substitution, and Morse ciphers.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from .caesar import CaesarCipher

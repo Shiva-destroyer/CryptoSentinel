@@ -4,7 +4,7 @@ Abstract base class for security analyzer implementations.
 This module defines the AnalyzerInterface ABC that all security analysis tools
 must inherit from, ensuring consistent API for password strength, checksums, etc.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from abc import ABC, abstractmethod

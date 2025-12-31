@@ -4,7 +4,7 @@ Abstract base class for cipher implementations.
 This module defines the CipherInterface ABC that all cipher implementations
 must inherit from, ensuring consistent API across all encryption algorithms.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from abc import ABC, abstractmethod

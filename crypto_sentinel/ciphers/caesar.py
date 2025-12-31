@@ -4,7 +4,7 @@ Caesar Cipher implementation with frequency analysis cracking.
 The Caesar cipher is a substitution cipher where each letter is shifted by
 a fixed number of positions in the alphabet. Named after Julius Caesar.
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from typing import Any, Union

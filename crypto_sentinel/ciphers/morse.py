@@ -4,7 +4,7 @@ Morse Code handler implementation.
 Morse code is a character encoding that represents text characters as
 sequences of dots and dashes (or dits and dahs).
 
-Author: saisrujanmurthy@gmail.com
+Developer: saisrujanmurthy@gmail.com
 """
 
 from typing import Any, Union
