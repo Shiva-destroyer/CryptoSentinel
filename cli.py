@@ -23,20 +23,19 @@ def main() -> None:
     crypto_console = CryptoConsole()
     
     try:
-        # Display banner
+        # Display banner ONCE at startup
         crypto_console.clear_screen()
         crypto_console.display_banner()
         
         # Main loop
         while True:
             try:
-                # Main menu
+                # Main menu (compact header)
                 choice = crypto_console.main_menu()
                 
                 if choice == "1":  # Classical Ciphers
                     while True:
                         crypto_console.clear_screen()
-                        crypto_console.display_banner()
                         
                         cipher_choice = crypto_console.cipher_menu()
                         
@@ -48,7 +47,6 @@ def main() -> None:
                 elif choice == "2":  # Hashing Tools
                     while True:
                         crypto_console.clear_screen()
-                        crypto_console.display_banner()
                         
                         hash_choice = crypto_console.hashing_menu()
                         
@@ -60,7 +58,6 @@ def main() -> None:
                 elif choice == "3":  # Security Tools
                     while True:
                         crypto_console.clear_screen()
-                        crypto_console.display_banner()
                         
                         security_choice = crypto_console.security_menu()
                         
@@ -85,9 +82,8 @@ def main() -> None:
                     console.print(goodbye_panel, justify="center")
                     sys.exit(0)
                 
-                # Clear screen after operation
+                # Clear screen after operation for clean return to main menu
                 crypto_console.clear_screen()
-                crypto_console.display_banner()
             
             except KeyboardInterrupt:
                 # Handle Ctrl+C gracefully within menu

@@ -18,6 +18,7 @@ from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
 from rich.prompt import Prompt, Confirm
 from rich.layout import Layout
 from rich.text import Text
+from rich.rule import Rule
 from rich import box
 
 # Import all modules
@@ -112,10 +113,26 @@ class CryptoConsole:
             justify="center"
         )
     
+    def display_compact_header(self, title: str) -> None:
+        """Display a clean, compact header instead of the full banner.
+        
+        Args:
+            title: The title/section name to display
+        """
+        self.console.print()
+        self.console.print(
+            Rule(
+                f"[bold cyan]CryptoSentinel[/bold cyan] [dim]│[/dim] [yellow]{title}[/yellow]",
+                style="cyan"
+            )
+        )
+        self.console.print()
+    
     def main_menu(self) -> str:
         """Display main menu and return user choice."""
+        self.display_compact_header("Main Menu")
+        
         table = Table(
-            title="[bold cyan]Main Menu[/bold cyan]",
             box=box.ROUNDED,
             border_style="cyan",
             show_header=True,
@@ -159,8 +176,9 @@ class CryptoConsole:
     
     def cipher_menu(self) -> str:
         """Display cipher selection menu."""
+        self.display_compact_header("Classical Ciphers")
+        
         table = Table(
-            title="[bold cyan]Classical Ciphers[/bold cyan]",
             box=box.ROUNDED,
             border_style="cyan",
             show_header=True,
@@ -191,8 +209,9 @@ class CryptoConsole:
     
     def hashing_menu(self) -> str:
         """Display hashing tools menu."""
+        self.display_compact_header("Hashing Tools")
+        
         table = Table(
-            title="[bold cyan]Hashing Tools[/bold cyan]",
             box=box.ROUNDED,
             border_style="cyan",
             show_header=True,
@@ -220,8 +239,9 @@ class CryptoConsole:
     
     def security_menu(self) -> str:
         """Display security tools menu."""
+        self.display_compact_header("Security Tools")
+        
         table = Table(
-            title="[bold cyan]Security Tools[/bold cyan]",
             box=box.ROUNDED,
             border_style="cyan",
             show_header=True,
